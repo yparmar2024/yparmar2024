@@ -1,0 +1,11 @@
+# .metrics.yml
+title: "Yash Parmar's GitHub Metrics"
+include_all_commits: true
+metrics:
+  - type: "overview"
+  - type: "languages"
+  - type: "repositories"
+  - type: "contributions"
+  - type: "commit-activity-graph"
+    graph: "isometric"
+theme: "classic"
