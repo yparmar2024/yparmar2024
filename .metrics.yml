@@ -1,11 +1,29 @@
-# .metrics.yml
-title: "Yash Parmar's GitHub Metrics"
-include_all_commits: true
-metrics:
-  - type: "overview"
-  - type: "languages"
-  - type: "repositories"
-  - type: "contributions"
-  - type: "commit-activity-graph"
-    graph: "isometric"
-theme: "classic"
+name: GitHub Metrics
+
+on:
+  push:
+    branches: ["main"]
+  schedule:
+    - cron: "0 0 * * *"  # updates daily
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # allows committing the generated SVGs
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Metrics embed
+        uses: lowlighter/metrics@v3.34
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          filename: metrics.svg
+          # Enable plugins you want
+          plugin_isocalendar: yes        # isometric commit calendar
+          plugin_isocalendar_duration: full-year
+          plugin_top_languages: yes      # top languages
+          plugin_contributions: yes      # contributions overview
+          plugin_streak: yes             # longest/shortest streak
