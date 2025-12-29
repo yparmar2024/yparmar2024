@@ -23,8 +23,5 @@ jobs:
           filename: metrics.svg
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
-          plugin_streak: yes
-          plugin_languages: yes
-          plugin_contributions: yes
           plugin_leetcode: yes
           plugin_leetcode_user: "yparmar"
