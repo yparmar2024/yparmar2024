@@ -27,6 +27,4 @@ jobs:
           plugin_languages: yes
           plugin_contributions: yes
           plugin_leetcode: yes
-          plugin_leetcode_username: "yparmar"
-          plugin_leetcode_display_name: "LeetCode"
-          plugin_leetcode_show_ranking: true
+          plugin_leetcode_user: "yparmar"
