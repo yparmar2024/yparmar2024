@@ -14,6 +14,7 @@ I'm a 2/3 Computer Science major with a Math minor at Stevens Institute of Techn
 
 ## 📊 GitHub Stats
 ![Yash's GitHub Metrics](https://metrics.lecoq.io/yparmar2024?template=classic&config.timezone=America/New_York)
+![GitHub Metrics](https://metrics.lecoq.io/yparmar2024template=classic&config.timezone=America/New_York&config.file=.metrics.yml)
 
 ---
 
