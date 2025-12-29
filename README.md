@@ -40,5 +40,3 @@ Repository for projects completed during my Virtual Data Science Internship at D
 ## 📫 Contact Me
 - [LinkedIn](https://www.linkedin.com/in/yparmar)  
 - Email: yparmar2024@gmail.com
-
----
