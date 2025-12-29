@@ -2,28 +2,25 @@ name: GitHub Metrics
 
 on:
   push:
-    branches: ["main"]
+    branches: ["main"]        # Trigger when you push
   schedule:
-    - cron: "0 0 * * *"  # updates daily
+    - cron: "0 0 * * *"       # Trigger daily at midnight UTC
 
 jobs:
   metrics:
     runs-on: ubuntu-latest
     permissions:
-      contents: write  # allows committing the generated SVGs
+      contents: write         # Needed to commit the generated SVG
 
     steps:
+      # Checkout repo
       - name: Checkout
         uses: actions/checkout@v3
 
+      # Generate Metrics SVG
       - name: Metrics embed
         uses: lowlighter/metrics@v3.34
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}  # Built-in GitHub token
           filename: metrics.svg
-          # Enable plugins you want
-          plugin_isocalendar: yes        # isometric commit calendar
-          plugin_isocalendar_duration: full-year
-          plugin_top_languages: yes      # top languages
-          plugin_contributions: yes      # contributions overview
-          plugin_streak: yes             # longest/shortest streak
+          config_file: .metrics.yml           # Reference your layout config
