@@ -20,9 +20,9 @@ I'm a 2/3 Computer Science major with a Math minor at Stevens Institute of Techn
 
 ## 🚀 Pinned Projects
 
-### [Pinged](https://github.com/yparmar2024/Pinged)
-Swipe-based connection app that helps users find like-minded people in their industry for further development. Users create profiles with their skills and goals, swipe to express mutual interest in working together, and connect further on other platforms if it's a match!
-**Tech:** React Native, Firebase, JavaScript
+### [Minecraft Portfolio](https://github.com/yparmar2024/Portfolio)
+An immersive, interactive developer portfolio built with **React** and **Three.js** that replicates the Minecraft Java Edition engine. It features a custom state machine for grid-based crafting logic, procedural 3D skeletal animation, and a global audio context to simulate a fully playable "Career Mode" directly in the browser.
+**Tech:** React, Three.js, Vite
 
 ### [Recrootly](https://github.com/yparmar2024/recrootly)
 Full-stack web app that evaluates and ranks candidate resumes by generating detailed feedback using the Mistral 7B model via OpenRouter API.  
