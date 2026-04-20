@@ -5,9 +5,9 @@ I'm a 2/3 Computer Science major with a Math minor at Stevens Institute of Techn
 ---
 
 ## 🛠️ Skills & Technologies
-- **Languages:** Python, Java, C/C++, JavaScript, SQL, Assembly, Bash
-- **Frameworks:** React, Flutter, Node.js, FastAPI
-- **Tools:** AWS EC2, Firebase, Vercel, Git, Bash, Linux, Docker, Jupyter
+- **Languages:** Python, Java, C/C++, TyepScript, JavaScript, SQL
+- **Frameworks:** React, Flutter, Node.js, FastAPI, Vite, Flask
+- **Tools:** AWS (EC2, Lambda, DynamoDB, S3, Bedrock, CDK), Firebase, Supabase, Docker, Git, Linux
 - **Libraries:** Pandas, NumPy, Matplotlib, TensorFlow, Keras, PyTorch, Scikit-learn
 
 ---
