@@ -4,11 +4,16 @@
     .k { font-family: "Courier New", Courier, monospace; font-size: 18px; font-weight: bold; fill: #ffffff; text-anchor: middle; dominant-baseline: central; }
   </style>
   <rect width="360" height="574" fill="#0c1117" />
-  <rect x="35.0" y="30" width="50" height="50" fill="#0c1117" stroke="#3a3a3c" stroke-width="2" rx="4" />
-  <rect x="95.0" y="30" width="50" height="50" fill="#0c1117" stroke="#3a3a3c" stroke-width="2" rx="4" />
-  <rect x="155.0" y="30" width="50" height="50" fill="#0c1117" stroke="#3a3a3c" stroke-width="2" rx="4" />
-  <rect x="215.0" y="30" width="50" height="50" fill="#0c1117" stroke="#3a3a3c" stroke-width="2" rx="4" />
-  <rect x="275.0" y="30" width="50" height="50" fill="#0c1117" stroke="#3a3a3c" stroke-width="2" rx="4" />
+  <rect x="35.0" y="30" width="50" height="50" fill="#3a3a3c"  rx="4" />
+  <text x="60.0" y="57.0" class="t">A</text>
+  <rect x="95.0" y="30" width="50" height="50" fill="#3a3a3c"  rx="4" />
+  <text x="120.0" y="57.0" class="t">D</text>
+  <rect x="155.0" y="30" width="50" height="50" fill="#3a3a3c"  rx="4" />
+  <text x="180.0" y="57.0" class="t">I</text>
+  <rect x="215.0" y="30" width="50" height="50" fill="#b59f3b"  rx="4" />
+  <text x="240.0" y="57.0" class="t">E</text>
+  <rect x="275.0" y="30" width="50" height="50" fill="#3a3a3c"  rx="4" />
+  <text x="300.0" y="57.0" class="t">U</text>
   <rect x="35.0" y="90" width="50" height="50" fill="#0c1117" stroke="#3a3a3c" stroke-width="2" rx="4" />
   <rect x="95.0" y="90" width="50" height="50" fill="#0c1117" stroke="#3a3a3c" stroke-width="2" rx="4" />
   <rect x="155.0" y="90" width="50" height="50" fill="#0c1117" stroke="#3a3a3c" stroke-width="2" rx="4" />
@@ -38,7 +43,7 @@
   <text x="27.0" y="437.0" class="k">Q</text>
   <rect x="47.0" y="415" width="28" height="42" fill="#818384" rx="4" />
   <text x="61.0" y="437.0" class="k">W</text>
-  <rect x="81.0" y="415" width="28" height="42" fill="#818384" rx="4" />
+  <rect x="81.0" y="415" width="28" height="42" fill="#b59f3b" rx="4" />
   <text x="95.0" y="437.0" class="k">E</text>
   <rect x="115.0" y="415" width="28" height="42" fill="#818384" rx="4" />
   <text x="129.0" y="437.0" class="k">R</text>
@@ -46,19 +51,19 @@
   <text x="163.0" y="437.0" class="k">T</text>
   <rect x="183.0" y="415" width="28" height="42" fill="#818384" rx="4" />
   <text x="197.0" y="437.0" class="k">Y</text>
-  <rect x="217.0" y="415" width="28" height="42" fill="#818384" rx="4" />
+  <rect x="217.0" y="415" width="28" height="42" fill="#3a3a3c" rx="4" />
   <text x="231.0" y="437.0" class="k">U</text>
-  <rect x="251.0" y="415" width="28" height="42" fill="#818384" rx="4" />
+  <rect x="251.0" y="415" width="28" height="42" fill="#3a3a3c" rx="4" />
   <text x="265.0" y="437.0" class="k">I</text>
   <rect x="285.0" y="415" width="28" height="42" fill="#818384" rx="4" />
   <text x="299.0" y="437.0" class="k">O</text>
   <rect x="319.0" y="415" width="28" height="42" fill="#818384" rx="4" />
   <text x="333.0" y="437.0" class="k">P</text>
-  <rect x="30.0" y="463" width="28" height="42" fill="#818384" rx="4" />
+  <rect x="30.0" y="463" width="28" height="42" fill="#3a3a3c" rx="4" />
   <text x="44.0" y="485.0" class="k">A</text>
   <rect x="64.0" y="463" width="28" height="42" fill="#818384" rx="4" />
   <text x="78.0" y="485.0" class="k">S</text>
-  <rect x="98.0" y="463" width="28" height="42" fill="#818384" rx="4" />
+  <rect x="98.0" y="463" width="28" height="42" fill="#3a3a3c" rx="4" />
   <text x="112.0" y="485.0" class="k">D</text>
   <rect x="132.0" y="463" width="28" height="42" fill="#818384" rx="4" />
   <text x="146.0" y="485.0" class="k">F</text>
