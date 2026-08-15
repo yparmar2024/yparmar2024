@@ -4,7 +4,7 @@ on:
   issues:
     types: [opened]
   schedule:
-    - cron: '0 0 * * *' # Daily at midnight UTC
+    - cron: '0 0 * * *'
 
 jobs:
   wordle:
@@ -15,43 +15,42 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
-        
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.10'
           
       - name: Process Guess
         if: github.event_name == 'issues' && startsWith(github.event.issue.title, 'wordle|')
         env:
           TITLE: ${{ github.event.issue.title }}
-          WORD_LIST: ${{ secrets.WORD_LIST }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           GUESS=$(echo "$TITLE" | cut -d '|' -f 2)
-          python wordle_action.py --action guess --guess "$GUESS"
+          if ! python3 src/wordle.py --action guess --guess "$GUESS"; then
+            gh issue close ${{ github.event.issue.number }} -c "Your guess was rejected! Make sure it's a valid 5-letter English word."
+            exit 1
+          fi
           
       - name: Reset Game
         if: github.event_name == 'schedule'
-        env:
-          WORD_LIST: ${{ secrets.WORD_LIST }}
         run: |
-          python wordle_action.py --action reset
-      
-      - name: Update README Cache Buster
-        run: |
-          sed -i -E "s/wordle\.svg(\?v=[0-9]+)?/wordle.svg?v=$(date +%s)/g" README.md
-
-      - name: Commit changes
+          python3 src/wordle.py --action reset
+          
+      - name: Commit Game State
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add wordle_state.json wordle.svg README.md
-          git commit -m "Update Wordle game state and bust cache" || exit 0
+          git add data/state.json assets/wordle.svg
+          git commit -m "Update Wordle game state" || exit 0
+
+      - name: Update README Cache Buster Hash
+        run: |
+          HASH=$(git rev-parse HEAD)
+          sed -i -E "s|https://raw.githubusercontent.com/yparmar2024/yparmar2024/[a-f0-9]+/assets/wordle\.svg|https://raw.githubusercontent.com/yparmar2024/yparmar2024/${HASH}/assets/wordle.svg|g" README.md
+          git add README.md
+          git commit -m "Update README Cache Buster Hash" || exit 0
           git push
 
       - name: Close Issue
         if: github.event_name == 'issues' && startsWith(github.event.issue.title, 'wordle|')
-        uses: peter-evans/close-issue@v3
-        with:
-          issue-number: ${{ github.event.issue.number }}
-          comment: "Your guess was processed! Check the README to see if you were right."
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue close ${{ github.event.issue.number }} -c "Your guess was processed! Check the README to see if you were right."
