@@ -74,16 +74,16 @@
 
 <p align="center">
   <a href="https://github.com/yparmar2024/morf">
-    <img src="https://github-stats-extended.vercel.app/api/pin/?username=yparmar2024&repo=morf&theme=tokyonight&border_radius=15&bg_color=00000000&hide_border=true" alt="morf" />
+    <img src="https://github-stats-extended.vercel.app/api/pin/?username=yparmar2024&repo=morf&theme=tokyonight&border_radius=15&bg_color=00000000&hide_border=true&v=1" alt="morf" />
   </a>
   <a href="https://github.com/yparmar2024/graphos">
-    <img src="https://github-stats-extended.vercel.app/api/pin/?username=yparmar2024&repo=graphos&theme=tokyonight&border_radius=15&bg_color=00000000&hide_border=true" alt="graphos" />
+    <img src="https://github-stats-extended.vercel.app/api/pin/?username=yparmar2024&repo=graphos&theme=tokyonight&border_radius=15&bg_color=00000000&hide_border=true&v=1" alt="graphos" />
   </a>
   <br/>
   <a href="https://github.com/yparmar2024/SleepyU">
-    <img src="https://github-stats-extended.vercel.app/api/pin/?username=yparmar2024&repo=SleepyU&theme=tokyonight&border_radius=15&bg_color=00000000&hide_border=true" alt="SleepyU" />
+    <img src="https://github-stats-extended.vercel.app/api/pin/?username=yparmar2024&repo=SleepyU&theme=tokyonight&border_radius=15&bg_color=00000000&hide_border=true&v=1" alt="SleepyU" />
   </a>
   <a href="https://github.com/yparmar2024/portfolio">
-    <img src="https://github-stats-extended.vercel.app/api/pin/?username=yparmar2024&repo=portfolio&theme=tokyonight&border_radius=15&bg_color=00000000&hide_border=true" alt="portfolio" />
+    <img src="https://github-stats-extended.vercel.app/api/pin/?username=yparmar2024&repo=portfolio&theme=tokyonight&border_radius=15&bg_color=00000000&hide_border=true&v=1" alt="portfolio" />
   </a>
 </p>
