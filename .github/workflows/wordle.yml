@@ -43,7 +43,7 @@ jobs:
       - name: Update README Cache Buster Hash
         run: |
           HASH=$(git rev-parse HEAD)
-          sed -i -E "s|https://raw.githubusercontent.com/yparmar2024/yparmar2024/[a-f0-9]+/assets/wordle\.svg|https://raw.githubusercontent.com/yparmar2024/yparmar2024/${HASH}/assets/wordle.svg|g" README.md
+          sed -i -E "s|https://raw.githubusercontent.com/yparmar2024/yparmar2024/[a-zA-Z0-9]+/assets/wordle\.svg|https://raw.githubusercontent.com/yparmar2024/yparmar2024/${HASH}/assets/wordle.svg|g" README.md
           git add README.md
           git commit -m "Update README Cache Buster Hash" || exit 0
           git push

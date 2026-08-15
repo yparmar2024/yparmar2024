@@ -35,7 +35,7 @@
 
 <div align="center">
   <a href="https://github.com/yparmar2024/yparmar2024/issues/new?title=wordle%7CGUESS&body=Replace+GUESS+in+the+title+with+your+5-letter+word+and+submit+the+issue!">
-    <img align="left" src="https://raw.githubusercontent.com/yparmar2024/yparmar2024/dfb874cef022f26c5bbbd81ecea53b4e34512803/assets/wordle.svg" alt="Wordle Game" />
+    <img align="left" src="https://raw.githubusercontent.com/yparmar2024/yparmar2024/main/assets/wordle.svg" alt="Wordle Game" />
   </a>
   <a href="https://github.com/yparmar2024">
     <img src="https://readme-typing-svg.herokuapp.com/?font=Press+Start+2P&size=14&color=7aa2f7&vCenter=true&repeat=false&width=450&lines=GITHUB+STATS" alt="Commit Stats" />
@@ -45,7 +45,7 @@
   <br/>
   <a href="https://github.com/yparmar2024">
     <img src="https://readme-typing-svg.herokuapp.com/?font=Press+Start+2P&size=14&color=7aa2f7&vCenter=true&repeat=false&width=450&lines=LANGUAGE+STATS" alt="Commit Stats" />
-    <img src="https://github-stats-extended.vercel.app/api/top-langs?username=yparmar2024&hide_title=true&layout=compact&theme=tokyonight&border_radius=15&bg_color=00000000&hide_border=true&hide=jupyter%20notebook&card_width=400&langs_count=8" alt="Top Languages" />
+    <img src="https://github-stats-extended.vercel.app/api/top-langs?username=yparmar2024&hide_title=true&layout=compact&theme=tokyonight&border_radius=15&bg_color=00000000&hide_border=true&hide=jupyter%20notebook&card_width=400&langs_count=8" alt="Languages Stats" />
   </a>
   <br/>
   <a href="https://github.com/yparmar2024">
@@ -54,7 +54,7 @@
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yparmar2024/yparmar2024/output/github-snake-dark.svg" />
       <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yparmar2024/yparmar2024/output/github-snake.svg" />
-      <img width="400" alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/yparmar2024/yparmar2024/output/github-snake.svg" />
+      <img width="400" alt="Commit Stats" src="https://raw.githubusercontent.com/yparmar2024/yparmar2024/output/github-snake.svg" />
     </picture>
   </a>
 </div>
