@@ -37,9 +37,9 @@ jobs:
         run: |
           python wordle_action.py --action reset
       
-      - name: Purge GitHub Camo Cache
+      - name: Update README Cache Buster
         run: |
-          curl -X PURGE https://githubusercontent.com
+          sed -i -E "s/wordle\.svg(\?v=[0-9]+)?/wordle.svg?v=$(date +%s)/g" README.md
 
       - name: Commit changes
         run: |
