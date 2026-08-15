@@ -36,10 +36,10 @@ jobs:
           WORD_LIST: ${{ secrets.WORD_LIST }}
         run: |
           python wordle_action.py --action reset
-          
-      - name: Update README Cache Buster
+      
+      - name: Purge GitHub Camo Cache
         run: |
-          sed -i -E "s/wordle\.svg(\?v=[0-9]+)?/wordle.svg?v=$(date +%s)/g" README.md
+          curl -X PURGE https://githubusercontent.com
 
       - name: Commit changes
         run: |
