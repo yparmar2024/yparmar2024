@@ -21,11 +21,16 @@
   <text x="207.0" y="93.0" class="t">N</text>
   <rect x="240" y="66" width="50" height="50" fill="#3a3a3c"  />
   <text x="265.0" y="93.0" class="t">T</text>
-  <rect x="8" y="124" width="50" height="50" fill="#121213" stroke="#3a3a3c" stroke-width="2" />
-  <rect x="66" y="124" width="50" height="50" fill="#121213" stroke="#3a3a3c" stroke-width="2" />
-  <rect x="124" y="124" width="50" height="50" fill="#121213" stroke="#3a3a3c" stroke-width="2" />
-  <rect x="182" y="124" width="50" height="50" fill="#121213" stroke="#3a3a3c" stroke-width="2" />
-  <rect x="240" y="124" width="50" height="50" fill="#121213" stroke="#3a3a3c" stroke-width="2" />
+  <rect x="8" y="124" width="50" height="50" fill="#538d4e"  />
+  <text x="33.0" y="151.0" class="t">M</text>
+  <rect x="66" y="124" width="50" height="50" fill="#3a3a3c"  />
+  <text x="91.0" y="151.0" class="t">A</text>
+  <rect x="124" y="124" width="50" height="50" fill="#3a3a3c"  />
+  <text x="149.0" y="151.0" class="t">C</text>
+  <rect x="182" y="124" width="50" height="50" fill="#b59f3b"  />
+  <text x="207.0" y="151.0" class="t">O</text>
+  <rect x="240" y="124" width="50" height="50" fill="#3a3a3c"  />
+  <text x="265.0" y="151.0" class="t">S</text>
   <rect x="8" y="182" width="50" height="50" fill="#121213" stroke="#3a3a3c" stroke-width="2" />
   <rect x="66" y="182" width="50" height="50" fill="#121213" stroke="#3a3a3c" stroke-width="2" />
   <rect x="124" y="182" width="50" height="50" fill="#121213" stroke="#3a3a3c" stroke-width="2" />
