@@ -4,7 +4,8 @@
     "LINUX",
     "AGENT",
     "MACOS",
-    "MOLES"
+    "MOLES",
+    "MODEL"
   ],
-  "status": "playing"
+  "status": "won"
 }
