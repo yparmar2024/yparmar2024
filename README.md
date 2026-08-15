@@ -71,3 +71,19 @@
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com/?font=Press+Start+2P&size=20&color=7aa2f7&vCenter=true&center=true&repeat=false&width=600&lines=FEATURED+REPOSITORIES" alt="Featured Repositories" />
 </p>
+
+<p align="center">
+  <a href="https://github.com/yparmar2024/morf">
+    <img src="https://github-stats-extended.vercel.app/api/pin/?username=yparmar2024&repo=morf&theme=tokyonight&border_radius=15&bg_color=00000000&hide_border=true" alt="morf" />
+  </a>
+  <a href="https://github.com/yparmar2024/graphos">
+    <img src="https://github-stats-extended.vercel.app/api/pin/?username=yparmar2024&repo=graphos&theme=tokyonight&border_radius=15&bg_color=00000000&hide_border=true" alt="graphos" />
+  </a>
+  <br/>
+  <a href="https://github.com/yparmar2024/SleepyU">
+    <img src="https://github-stats-extended.vercel.app/api/pin/?username=yparmar2024&repo=SleepyU&theme=tokyonight&border_radius=15&bg_color=00000000&hide_border=true" alt="SleepyU" />
+  </a>
+  <a href="https://github.com/yparmar2024/portfolio">
+    <img src="https://github-stats-extended.vercel.app/api/pin/?username=yparmar2024&repo=portfolio&theme=tokyonight&border_radius=15&bg_color=00000000&hide_border=true" alt="portfolio" />
+  </a>
+</p>
