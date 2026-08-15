@@ -1,11 +1,16 @@
 <svg width="298" height="356" xmlns="http://www.w3.org/2000/svg">
   <style>.t { font-family: "Courier New", Courier, monospace; font-size: 32px; font-weight: bold; fill: #ffffff; text-anchor: middle; dominant-baseline: central; }</style>
   <rect width="298" height="356" fill="#121213" />
-  <rect x="8" y="8" width="50" height="50" fill="#121213" stroke="#3a3a3c" stroke-width="2" />
-  <rect x="66" y="8" width="50" height="50" fill="#121213" stroke="#3a3a3c" stroke-width="2" />
-  <rect x="124" y="8" width="50" height="50" fill="#121213" stroke="#3a3a3c" stroke-width="2" />
-  <rect x="182" y="8" width="50" height="50" fill="#121213" stroke="#3a3a3c" stroke-width="2" />
-  <rect x="240" y="8" width="50" height="50" fill="#121213" stroke="#3a3a3c" stroke-width="2" />
+  <rect x="8" y="8" width="50" height="50" fill="#b59f3b"  />
+  <text x="33.0" y="35.0" class="t">L</text>
+  <rect x="66" y="8" width="50" height="50" fill="#3a3a3c"  />
+  <text x="91.0" y="35.0" class="t">I</text>
+  <rect x="124" y="8" width="50" height="50" fill="#3a3a3c"  />
+  <text x="149.0" y="35.0" class="t">N</text>
+  <rect x="182" y="8" width="50" height="50" fill="#3a3a3c"  />
+  <text x="207.0" y="35.0" class="t">U</text>
+  <rect x="240" y="8" width="50" height="50" fill="#3a3a3c"  />
+  <text x="265.0" y="35.0" class="t">X</text>
   <rect x="8" y="66" width="50" height="50" fill="#121213" stroke="#3a3a3c" stroke-width="2" />
   <rect x="66" y="66" width="50" height="50" fill="#121213" stroke="#3a3a3c" stroke-width="2" />
   <rect x="124" y="66" width="50" height="50" fill="#121213" stroke="#3a3a3c" stroke-width="2" />
