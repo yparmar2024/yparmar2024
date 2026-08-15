@@ -1,0 +1,53 @@
+name: Wordle Game Action
+
+on:
+  issues:
+    types: [opened]
+  schedule:
+    - cron: '0 0 * * *' # Daily at midnight UTC
+
+jobs:
+  wordle:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+          
+      - name: Process Guess
+        if: github.event_name == 'issues' && startsWith(github.event.issue.title, 'wordle|')
+        env:
+          TITLE: ${{ github.event.issue.title }}
+          WORD_LIST: ${{ secrets.WORD_LIST }}
+        run: |
+          GUESS=$(echo "$TITLE" | cut -d '|' -f 2)
+          python wordle_action.py --action guess --guess "$GUESS"
+          
+      - name: Reset Game
+        if: github.event_name == 'schedule'
+        env:
+          WORD_LIST: ${{ secrets.WORD_LIST }}
+        run: |
+          python wordle_action.py --action reset
+          
+      - name: Commit changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add wordle_state.json wordle.svg
+          git commit -m "Update Wordle game state" || exit 0
+          git push
+
+      - name: Close Issue
+        if: github.event_name == 'issues' && startsWith(github.event.issue.title, 'wordle|')
+        uses: peter-evans/close-issue@v3
+        with:
+          issue-number: ${{ github.event.issue.number }}
+          comment: "Your guess was processed! Check the README to see if you were right."

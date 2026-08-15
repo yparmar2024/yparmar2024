@@ -1,43 +1,8 @@
-# Hi there, I'm Yash Parmar
+# 🎮 Community Wordle
 
-I'm a 2/3 Computer Science major with a Math minor at Stevens Institute of Technology with a strong interest in solving modern problems with modern solutions.
+Help me solve the daily tech Wordle! 
+Click the link below to make a guess. The game resets automatically every day at Midnight UTC.
 
----
+![Wordle Game](wordle.svg)
 
-## 🛠️ Skills & Technologies
-- **Languages:** Python, Java, C/C++, TyepScript, JavaScript, SQL
-- **Frameworks:** React, Flutter, Node.js, FastAPI, Vite, Flask
-- **Tools:** AWS (EC2, Lambda, DynamoDB, S3, Bedrock, CDK), Firebase, Supabase, Docker, Git, Linux
-- **Libraries:** Pandas, NumPy, Matplotlib, TensorFlow, Keras, PyTorch, Scikit-learn
-
----
-
-## 📊 GitHub Stats
-
-<img src="./metrics.svg" alt="GitHub metrics">
-
----
-
-## 🚀 Pinned Projects
-
-### [Minecraft Portfolio](https://github.com/yparmar2024/Portfolio)
-An immersive, interactive developer portfolio built with **React** and **Three.js** that replicates the Minecraft Java Edition engine. It features a custom state machine for grid-based crafting logic, procedural 3D skeletal animation, and a global audio context to simulate a fully playable "Career Mode" directly in the browser.
-**Tech:** React, Three.js, Vite
-
-### [Recrootly](https://github.com/yparmar2024/recrootly)
-Full-stack web app that evaluates and ranks candidate resumes by generating detailed feedback using the Mistral 7B model via OpenRouter API.  
-**Tech:** React, Supabase, JavaScript
-
-### [SleepyU](https://github.com/yparmar2024/SleepyU)
-Fun, 8-bit CPU project built in Logisim-Evolution with a simple instruction set and playful sleep-themed naming style.  
-**Tech:** Python, Logisim-Evolution
-
-### [Data-Glacier](https://github.com/yparmar2024/Data-Glacier)
-Repository for projects completed during my Virtual Data Science Internship at Data Glacier. Showcases weekly deliverables in ML deployment and version control.  
-**Tech:** Python, Jupyter Notebook
-
----
-
-## 📫 Contact Me
-- [LinkedIn](https://www.linkedin.com/in/yparmar)  
-- Email: yparmar2024@gmail.com
+[**➡️ Click here to make a guess!**](https://github.com/yparmar2024/yparmar2024/issues/new?title=wordle%7CGUESS&body=Replace+GUESS+in+the+title+with+your+5-letter+word+and+submit+the+issue!)
