@@ -34,11 +34,16 @@
   <text x="240.0" y="177.0" class="t">U</text>
   <rect x="275.0" y="150" width="50" height="50" fill="#3a3a3c"  rx="4" />
   <text x="300.0" y="177.0" class="t">T</text>
-  <rect x="35.0" y="210" width="50" height="50" fill="#0c1117" stroke="#3a3a3c" stroke-width="2" rx="4" />
-  <rect x="95.0" y="210" width="50" height="50" fill="#0c1117" stroke="#3a3a3c" stroke-width="2" rx="4" />
-  <rect x="155.0" y="210" width="50" height="50" fill="#0c1117" stroke="#3a3a3c" stroke-width="2" rx="4" />
-  <rect x="215.0" y="210" width="50" height="50" fill="#0c1117" stroke="#3a3a3c" stroke-width="2" rx="4" />
-  <rect x="275.0" y="210" width="50" height="50" fill="#0c1117" stroke="#3a3a3c" stroke-width="2" rx="4" />
+  <rect x="35.0" y="210" width="50" height="50" fill="#538d4e"  rx="4" />
+  <text x="60.0" y="237.0" class="t">S</text>
+  <rect x="95.0" y="210" width="50" height="50" fill="#538d4e"  rx="4" />
+  <text x="120.0" y="237.0" class="t">O</text>
+  <rect x="155.0" y="210" width="50" height="50" fill="#538d4e"  rx="4" />
+  <text x="180.0" y="237.0" class="t">U</text>
+  <rect x="215.0" y="210" width="50" height="50" fill="#538d4e"  rx="4" />
+  <text x="240.0" y="237.0" class="t">P</text>
+  <rect x="275.0" y="210" width="50" height="50" fill="#538d4e"  rx="4" />
+  <text x="300.0" y="237.0" class="t">Y</text>
   <rect x="35.0" y="270" width="50" height="50" fill="#0c1117" stroke="#3a3a3c" stroke-width="2" rx="4" />
   <rect x="95.0" y="270" width="50" height="50" fill="#0c1117" stroke="#3a3a3c" stroke-width="2" rx="4" />
   <rect x="155.0" y="270" width="50" height="50" fill="#0c1117" stroke="#3a3a3c" stroke-width="2" rx="4" />
@@ -59,15 +64,15 @@
   <text x="129.0" y="437.0" class="k">R</text>
   <rect x="149.0" y="415" width="28" height="42" fill="#3a3a3c" rx="4" />
   <text x="163.0" y="437.0" class="k">T</text>
-  <rect x="183.0" y="415" width="28" height="42" fill="#818384" rx="4" />
+  <rect x="183.0" y="415" width="28" height="42" fill="#538d4e" rx="4" />
   <text x="197.0" y="437.0" class="k">Y</text>
-  <rect x="217.0" y="415" width="28" height="42" fill="#b59f3b" rx="4" />
+  <rect x="217.0" y="415" width="28" height="42" fill="#538d4e" rx="4" />
   <text x="231.0" y="437.0" class="k">U</text>
   <rect x="251.0" y="415" width="28" height="42" fill="#3a3a3c" rx="4" />
   <text x="265.0" y="437.0" class="k">I</text>
-  <rect x="285.0" y="415" width="28" height="42" fill="#b59f3b" rx="4" />
+  <rect x="285.0" y="415" width="28" height="42" fill="#538d4e" rx="4" />
   <text x="299.0" y="437.0" class="k">O</text>
-  <rect x="319.0" y="415" width="28" height="42" fill="#b59f3b" rx="4" />
+  <rect x="319.0" y="415" width="28" height="42" fill="#538d4e" rx="4" />
   <text x="333.0" y="437.0" class="k">P</text>
   <rect x="30.0" y="463" width="28" height="42" fill="#3a3a3c" rx="4" />
   <text x="44.0" y="485.0" class="k">A</text>
