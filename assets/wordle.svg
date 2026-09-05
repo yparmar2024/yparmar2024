@@ -14,11 +14,16 @@
   <text x="240.0" y="57.0" class="t">E</text>
   <rect x="275.0" y="30" width="50" height="50" fill="#b59f3b"  rx="4" />
   <text x="300.0" y="57.0" class="t">U</text>
-  <rect x="35.0" y="90" width="50" height="50" fill="#0c1117" stroke="#3a3a3c" stroke-width="2" rx="4" />
-  <rect x="95.0" y="90" width="50" height="50" fill="#0c1117" stroke="#3a3a3c" stroke-width="2" rx="4" />
-  <rect x="155.0" y="90" width="50" height="50" fill="#0c1117" stroke="#3a3a3c" stroke-width="2" rx="4" />
-  <rect x="215.0" y="90" width="50" height="50" fill="#0c1117" stroke="#3a3a3c" stroke-width="2" rx="4" />
-  <rect x="275.0" y="90" width="50" height="50" fill="#0c1117" stroke="#3a3a3c" stroke-width="2" rx="4" />
+  <rect x="35.0" y="90" width="50" height="50" fill="#3a3a3c"  rx="4" />
+  <text x="60.0" y="117.0" class="t">B</text>
+  <rect x="95.0" y="90" width="50" height="50" fill="#b59f3b"  rx="4" />
+  <text x="120.0" y="117.0" class="t">U</text>
+  <rect x="155.0" y="90" width="50" height="50" fill="#3a3a3c"  rx="4" />
+  <text x="180.0" y="117.0" class="t">C</text>
+  <rect x="215.0" y="90" width="50" height="50" fill="#3a3a3c"  rx="4" />
+  <text x="240.0" y="117.0" class="t">K</text>
+  <rect x="275.0" y="90" width="50" height="50" fill="#b59f3b"  rx="4" />
+  <text x="300.0" y="117.0" class="t">S</text>
   <rect x="35.0" y="150" width="50" height="50" fill="#0c1117" stroke="#3a3a3c" stroke-width="2" rx="4" />
   <rect x="95.0" y="150" width="50" height="50" fill="#0c1117" stroke="#3a3a3c" stroke-width="2" rx="4" />
   <rect x="155.0" y="150" width="50" height="50" fill="#0c1117" stroke="#3a3a3c" stroke-width="2" rx="4" />
@@ -61,7 +66,7 @@
   <text x="333.0" y="437.0" class="k">P</text>
   <rect x="30.0" y="463" width="28" height="42" fill="#3a3a3c" rx="4" />
   <text x="44.0" y="485.0" class="k">A</text>
-  <rect x="64.0" y="463" width="28" height="42" fill="#818384" rx="4" />
+  <rect x="64.0" y="463" width="28" height="42" fill="#b59f3b" rx="4" />
   <text x="78.0" y="485.0" class="k">S</text>
   <rect x="98.0" y="463" width="28" height="42" fill="#3a3a3c" rx="4" />
   <text x="112.0" y="485.0" class="k">D</text>
@@ -73,7 +78,7 @@
   <text x="214.0" y="485.0" class="k">H</text>
   <rect x="234.0" y="463" width="28" height="42" fill="#818384" rx="4" />
   <text x="248.0" y="485.0" class="k">J</text>
-  <rect x="268.0" y="463" width="28" height="42" fill="#818384" rx="4" />
+  <rect x="268.0" y="463" width="28" height="42" fill="#3a3a3c" rx="4" />
   <text x="282.0" y="485.0" class="k">K</text>
   <rect x="302.0" y="463" width="28" height="42" fill="#818384" rx="4" />
   <text x="316.0" y="485.0" class="k">L</text>
@@ -81,11 +86,11 @@
   <text x="78.0" y="533.0" class="k">Z</text>
   <rect x="98.0" y="511" width="28" height="42" fill="#818384" rx="4" />
   <text x="112.0" y="533.0" class="k">X</text>
-  <rect x="132.0" y="511" width="28" height="42" fill="#818384" rx="4" />
+  <rect x="132.0" y="511" width="28" height="42" fill="#3a3a3c" rx="4" />
   <text x="146.0" y="533.0" class="k">C</text>
   <rect x="166.0" y="511" width="28" height="42" fill="#818384" rx="4" />
   <text x="180.0" y="533.0" class="k">V</text>
-  <rect x="200.0" y="511" width="28" height="42" fill="#818384" rx="4" />
+  <rect x="200.0" y="511" width="28" height="42" fill="#3a3a3c" rx="4" />
   <text x="214.0" y="533.0" class="k">B</text>
   <rect x="234.0" y="511" width="28" height="42" fill="#818384" rx="4" />
   <text x="248.0" y="533.0" class="k">N</text>
