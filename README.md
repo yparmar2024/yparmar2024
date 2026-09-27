@@ -35,7 +35,7 @@
 
 <div align="center">
   <a href="https://github.com/yparmar2024/yparmar2024/issues/new?title=wordle%7CGUESS&body=Replace+GUESS+in+the+title+with+your+5-letter+word+and+submit+the+issue!">
-    <img align="left" src="https://raw.githubusercontent.com/yparmar2024/yparmar2024/acdb27e22dae7500de08e1f3dab3f9d569ddf607/assets/wordle.svg" alt="Wordle Game" />
+    <img align="left" src="https://raw.githubusercontent.com/yparmar2024/yparmar2024/337b33d301c6e78ef2dace32cd355342d98564e1/assets/wordle.svg" alt="Wordle Game" />
   </a>
   <a href="https://github.com/yparmar2024">
     <img src="https://readme-typing-svg.herokuapp.com/?font=Press+Start+2P&size=14&color=7aa2f7&vCenter=true&repeat=false&width=450&lines=GITHUB+STATS" alt="Commit Stats" />
