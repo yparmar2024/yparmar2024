@@ -1,11 +1,5 @@
 {
   "date": "2026-11-02",
-  "guesses": [
-    "TRAIN",
-    "PLOTS",
-    "STOCK",
-    "SCOUT",
-    "SCOOT"
-  ],
-  "status": "won"
+  "guesses": [],
+  "status": "playing"
 }
